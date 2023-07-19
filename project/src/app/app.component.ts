@@ -32,9 +32,10 @@ export class AppComponent {
     this.collage = ' '
   }
   onEdit(){
-   this.student = this.user
-   this.student = this.number
-   this.student = this.address
-   this.student = this.collage
+   console.log(this.student)
+    this.user = this.student.user
+    this.address = this.student.address
+    this.number = this.student.number
+    this.collage = this.student.collage
    }
 }
